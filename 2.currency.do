@@ -340,13 +340,13 @@ tab currency1
 *********************************************************************************************************
 
 * Malaysia
-replace currency1= "MYR" if (iso3=="MYS") 
+replace currency1= "MYR" if (iso3=="MYS") & (year<1973)
 
 * Singapore
 replace currency1= "MYR" if (iso3=="SGP")
 
 * Brunei
-replace currency1= "MYR" if (iso3=="BRN") & (year<1971)
+replace currency1= "MYR" if (iso3=="BRN")
 
 tab currency1
 

@@ -19,3 +19,7 @@ Copy all the files into the same folder. Then, run `mastercu.do`.
 5. A do-file to execute all of the individual do-files in the appropriate order: [`mastercu.do`](https://github.com/rangerqu/comcur/blob/master/mastercu.do)
 
 ## Changelog
+
+### 2016-01-18
+
+- Fixed an error on the currency union of Malaysia, Singapore, and Brunei.
